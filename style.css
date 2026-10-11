@@ -1,4 +1,4 @@
-
+/* setting the design for the whole background*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +10,7 @@ body {
   background-color: #eef0f5;
   padding: 40px;
 }
-
+/* main dashboard element*/
 .dashboard {
   background-color: #f1f1f1;
   max-width: 800px;
@@ -27,13 +27,13 @@ body {
   font-size: 2.5rem;
   margin-bottom: 25px;
 }
-
+/* notes grid each containing 3 blocks */
 .notes-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
+/* the fomrat of a single note */
 .note-card {
   height: 150px;
   padding: 12px;
@@ -68,6 +68,7 @@ body {
   color: #11ff00;
   cursor: pointer;
 }
+/* changing size of + sign on hover*/
 .add-btn:hover{
   transform:scale(1.3)
 }
@@ -87,7 +88,7 @@ body {
   word-break: break-word;
 }
 
-
+/* delete button for removing the note*/
 .delete-btn {
   position: absolute;
   top: 8px;
